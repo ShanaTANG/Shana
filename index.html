@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TYH ♥</title>
+    <style>
+        @import "assets/css/tyh.css";
+        @import "assets/css/study.css";
+        @import "assets/css/skills.css";
+        @import "assets/css/projects.css";
+        @import "assets/css/experiance.css";
+        @import "assets/css/life.css";
+    </style>
+</head>
+
+<body>
+    <!----個人主頁介紹---->
+    <header>
+        <div class="main_area">
+            <img src="assets/images/個人照1.jpg" class="main_picture">
+        </div>
+        <div class="word">不要因為夢想太美而不敢追求<br>
+            也不要因為現實太平凡而放棄改變</div>
+        <div class="name">唐伃萱<br>TANG-YU-HSUAN</div>
+        <div class="education">
+            <a href="https://im.cycu.edu.tw/" target="_blank">中原大學 資訊管理學系</a>
+        </div>
+        <div class="birthday">2002 / 07 / 10 </div>
+        <div class="contact1">
+            <a href="https://www.facebook.com/profile.php?id=100004002536687" target="_blank"><img src="assets/images/ICON - FB1.jpg" class="icon1"></a>
+            <a href="https://www.instagram.com/shana_480/" target="_blank"><img src="assets/images/ICON - IG1.jpg" class="icon2"></a>
+        </div>
+
+        <div style="clear:both;"></div>
+
+        <div class="contact2">
+            <a href="https://github.com/ShanaTANG/Shana" target="_blank"><img src="assets/images/ICON - GITHUB1.jpg" class="icon1"></a>
+            <a href="mailto:shanatang0710@gmail.com"><img src="assets/images/ICON - MAIL1.jpeg" class="icon2"></a>
+        </div>
+    </header>
+<main>
+    <!----學習歷程---->
+    <div class="part1">
+        <div id="study">
+            <p class="st1">學習歷程 Study</p>
+                <div class="b1">
+                    <button class="accordion">
+                        <div class="photobackground">
+                            <img src="assets/images/童年1.jpg" class="timephoto">
+                            <p class="time">幼稚園時期 ⚇<br>私立安特幼兒園</p>
+                        </div>
+                    </button>
+                    <div class="panel">
+                        <p>小時候的我個性很活潑開朗，是個愛蹦蹦亂跳的小女孩！每天除了笑還是笑~是家裡最瘋瘋癲癲的開心果☻講到說話沒人可以比我吵！！feat.三歲生日的ME♥</p>
+                    </div>
+                </div>
+
+                <div class="b1">
+                    <button class="accordion">
+                        <div class="photobackground">
+                            <img src="assets/images/國中1.jpg" class="timephoto">
+                            <p class="time">國中小時期 ⍢<br>基隆市立五堵國小 / 百福國中</p>
+                        </div>
+                    </button>
+                    <div class="panel">
+                        <p>國小的時候就是小屁孩一枚！國中看起來也呆呆笨笨的Q feat.國中畢業當天的朋朋們！</p>
+                    </div>
+                </div>
+
+                <div class="b1">
+                    <button class="accordion">
+                        <div class="photobackground">
+                            <img src="assets/images/ME_高中2.jpg" class="timephoto">
+                            <p class="time">青春高中時期 ❣<br>新北市立秀峰高中</p>
+                        </div>
+                    </button>
+                    <div class="panel">
+                        <p>高中的時候有一群很愛的朋朋們，雖然升學壓力很大，但還是玩得很快樂♥大家都說高中會是最令人懷念的時期，真的是極度認同♥ feat.高三的ME♫</p>
+                    </div>
+                </div>
+
+                <div class="b1">
+                    <button class="accordion">
+                        <div class="photobackground">
+                            <img src="assets/images/ME_大學1.jpg" class="timephoto">
+                            <p class="time">大學新鮮人時期 ❀<br>中原大學CYCU</p>
+                        </div>
+                    </button>
+                    <div class="panel">
+                        <p>大學就不多說了吧，遇到了很可愛的一群人！即使被程式摧殘，每個人都超級凱瑞der，當然還是要到處吃喝玩樂XD feat.總是不睡覺在外頭到處晃的ME★</p>
+                    </div>
+                </div>
+
+                <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+                } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+                });
+                }
+                </script>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+
+    <!----技能---->
+    <div class="part2">
+        
+            <div class="ST">
+                <p id="st">程式技能 Programming Skill</p>
+            </div>
+        <div id="container">
+            <!----HTML---->
+            <div class="skills">
+                <div class="details">
+                    <p class="sc1">HTML5</p>
+                </div>
+                <div class="bar">
+                    <div id="html-bar">90%</div>
+                </div>
+            </div>
+
+            <!----CSS---->
+            <div class="skills">
+                <div class="details">
+                    <p class="sc1">CSS3</p>
+                </div>
+                <div class="bar">
+                    <div id="css-bar">90%</div>
+                </div>
+            </div>
+
+            <!----Javascript---->
+            <div class="skills">
+                <div class="details">
+                    <p class="sc1">Javascript</p>
+                </div>
+                <div class="bar">
+                    <div id="javascript-bar">60%</div>
+                </div>
+            </div>
+
+            <!----C#---->
+            <div class="skills">
+                <div class="details">
+                    <p class="sc1">C#</p>
+                </div>
+                <div class="bar">
+                    <div id="C-bar">40%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="part3">
+            <div class="ST">
+                <p id="st">專業技能 Skill</p>
+            </div>
+        <div id="container2">
+            <!----文書處理---->
+            <div class="skills2">
+                <div class="details2">
+                    <p class="sc1">文書處理</p>
+                </div>
+                <div class="bar2">
+                    <div id="W-bar2">90%</div>
+                </div>
+            </div>
+
+            <!----貪吃程度---->
+            <div class="skills2">
+                <div class="details2">
+                    <p class="sc1">貪吃程度</p>
+                </div>
+                <div class="bar2">
+                    <div id="E-bar2">100%</div>
+                </div>
+            </div>
+
+            <!----社交能力---->
+            <div class="skills2">
+                <div class="details2">
+                    <p class="sc1">社交能力</p>
+                </div>
+                <div class="bar2">
+                    <div id="S-bar2">85%</div>
+                </div>
+            </div>
+
+            <!----編輯影像---->
+            <div class="skills2">
+                <div class="details2">
+                    <p class="sc1">編輯影像</p>
+                </div>
+                <div class="bar2">
+                    <div id="P-bar2">90%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+
+    <!----專題、專案---->
+    <div class="part4">
+        <div id="projects">
+            <p id="pt">專題 / 專案 Projects</p>
+            <div class="timeline">
+                <div class="a1">
+                    <div class="container left">
+                        <div class="content">
+                            <p class="tt1">大一上 - 企業概論</p>
+                            <p class="mt1">蜜豐糖脆蛋糕<br>- 合作夥伴(微熱山丘X普仁基金會)</p>
+                            <p class="ct1">第一次模擬經營一家企業的課程，從剛開始的籌備計畫，到後來的實體販售，最後的成果發表，過程中遇到了很多問題，小組意見不合、時間安排不順、銷售通路規劃不完善⋯⋯等，但透過不斷的溝通、學習來克服這些障礙。我身為財務長學習怎麼運用有限的資源去發揮最大的效益；另一種身分是IG粉絲團的小編，不管是文案設計或是排版內容，我都花了很多很多時間在學習，透過這門課真的讓我學習到很多專業技能。</p>
+                        </div>
+                    </div>
+                    <div class="imgbox right1">
+                        <div class="photogroup1">
+                            <img src="assets/images/企概1.jpg" class="photo1">
+                            <img src="assets/images/企概2.png" class="photo7">
+                        </div>
+                        <div class="button1">
+                            <a href="https://sites.google.com/view/honeycakecycu/%E9%A6%96%E9%A0%81" target="_blank">Honey Cake</a>
+                        </div>
+                        <div class="button2">
+                            <a href="https://youtu.be/1D8lL6s1I4Q" target="_blank">宣傳影片</a>
+                        </div>
+                    </div>
+                </div>                
+
+                <div class="a1">
+                    <div class="container right">
+                        <div class="content">
+                            <p class="tt1">寒假</p>
+                            <p class="mt1">網站 - 康芬老師的教學小天地</p>
+                            <p class="ct1">記得那時候老師在群組問是否有人有意願協助架設網站，雖然我猶豫了很久但最終還是主動去給老師答覆，和乙班的同學一起合作，我和他不一樣，他有基本的程式能力外，甚至也有架設網站的經驗，對比我來說，真的是實力差太多，但我也沒有因此放棄，不會的地方就盡量問，我覺得困難的地方就在於整理資料跟排版，主要是因為WIX基本上就是一個架網站的懶人包！很感謝自己鼓起勇氣和老師爭取這個機會，讓自己多了一項能力，不管是對於自己的能力提升或是生涯作品之一都是很加分的。</p>
+                        </div>
+                    </div>
+                    <div class="imgbox left1">
+                        <div class="photogroup1">
+                            <img src="assets/images/網站1.png" class="photo2">
+                            <img src="assets/images/網站4.png" class="photo8">
+                        </div>
+                        <div class="button1">
+                            <a href="https://cycueduweb2021.wixsite.com/website-2" target="_blank">康芬老師的小天地</a>
+                        </div>
+                    </div>
+                </div>                
+            
+            
+                <div class="a1">
+                    <div class="container left">
+                        <div class="content">
+                            <p class="tt1">大一下 - 管理學</p>
+                            <p class="mt1">桃姊妹格子鋪</p>
+                            <p class="ct1">在一開始的計畫就出現了很多問題，和合作夥伴有一些溝通上的斷層。真正體驗過後就會知道發傳單其實也不是一件容易的事，需要極大的勇氣和被拒絕也不能玻璃心的態度，也讓我們知道以後在路上遇到發傳單的時候，對他們的態度應該要好一點，即使是拒絕也可以禮貌一點。第二次的地點較偏遠，但我們也沒有因此放棄，挨家挨戶的去投遞信箱。透過這次活動，學習到其實有很多公益團體一直在為這個社會付出，也該思考身為大學生的我們能如何去盡一份心力。</p>
+                        </div>
+                    </div>
+                    <div class="imgbox right1">
+                        <div class="photogroup1">
+                            <img src="assets/images/管理學1.jpg" class="photo3">
+                            <img src="assets/images/管理學2.jpg" class="photo4">
+                            <img src="assets/images/管理學3.jpg" class="photo9">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="a1">
+                    <div class="container right">
+                        <div class="content">
+                            <p class="tt1">暑假</p>
+                            <p class="mt1">網站 - 全球客家中心網頁</p>
+                            <p class="ct1">架設網站工作的第二部分，對比上次的老師個人的教學網站來說，這次的規模更大，除了和其他學校的老師合作外，網站希望可以推廣至全球，所以多了一種共通語言 - 英文。老師都有提供我們英文版的資料，但資訊量比之前的都還要多，整理起來也花費了更多時間，但也因為這樣提升了更多排版跟整理的能力。雖然沒有時間上的壓力，但還是希望在剛開始就把編排架構建立起來，之後不斷更新資料也不會有太多問題。這次老師有特別跟我提到「色彩」的部分，可以多去看看各大網站的色彩分配，學會辨識色彩，讓版面可以更漂亮！</p>
+                        </div>
+                    </div>
+                    <div class="imgbox left1">
+                        <img src="assets/images/網站2.png" class="photo5">
+                        <div class="button1">
+                            <a href="https://cycueduweb2021.wixsite.com/website-1" target="_blank">全球客家中心</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="a1">
+                    <div class="container left">
+                        <div class="content">
+                            <p class="tt1">大二上 - 多媒體期中專題</p>
+                            <p class="mt1">信實宿舍</p>
+                            <p class="ct1">這是我們第一次大型的分組多媒體作業，說辛苦還真的有夠辛苦，對於不熟悉的程式手法，需要花費很多時間跟心力去完成，我本身對程式就不是很厲害，但我很勇於問問題，而且喜歡那種寫出來的成就感。當然在其中也得到很多，不管是程式能力的提升，還是組員之間的溝通、分工合作，都是很重要的學習環節。後來才發現其實一個看似簡單的網站，背後都是必須付出很多時間、心血來排版，還有那些很厲害的特效，除了讚嘆還是讚嘆！！雖然自己不像其他人的第一志願就是資管系，但我接觸之後才發現很多新世界，希望自己可以更上一層樓。</p>
+                        </div>
+                    </div>
+                    <div class="imgbox right1">
+                        <img src="assets/images/網站3.png" class="photo6">
+                        <div class="button1">
+                            <a href="https://youtu.be/A9ejASWonpI" target="_blank">介紹影片</a>
+                        </div>
+                        <div class="button2">
+                            <a href="file:///D:/%E4%B8%AD%E5%8E%9F%E5%A4%A7%E5%AD%B8/%E5%A4%9A%E5%AA%92%E9%AB%94%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/%E6%9C%9F%E4%B8%AD%E5%B0%88%E9%A1%8C%20-%20%E4%BF%A1%E5%AF%A6%E5%AE%BF%E8%88%8D/hsinshih-main/index.html" target="_blank">Hsinshih</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----社團、活動經歷---->
+    <div class="part5">
+        <div id="experiance">
+            <p class="et">社團 / 活動經歷 experiance</p>
+
+            <div class="e1">
+                <p class="ec">高中班級活動策劃人</p>
+                <div class="slider_container">
+                    <div>
+                        <img src="assets/images/高中1.jpg" alt="班遊：侯硐金瓜石小旅行 ♥" class="e_photo">
+                        <span class="info">侯硐金瓜石小旅行 ♥</span>
+                    </div>
+                    <div>
+                        <img src="assets/images/高中2.jpg" alt="送禮物給最逗的體育老師 ♥ 總是喊著吃火鍋XD" class="e_photo">
+                        <span class="info">送禮物給最逗的體育老師 ♥ 總是喊著吃火鍋XD</span>
+                    </div>
+                    <div>
+                        <img src="assets/images/高中3.jpg" alt="送禮給最喜歡的數學光頭老師 ♥ 他讓我對數學充滿動力！" class="e_photo">
+                        <span class="info">送禮給最喜歡的數學光頭老師 ♥ 他讓我對數學充滿動力！</span>
+                    </div>
+                    <div>
+                        <img src="assets/images//高中4.jpg" alt="畢業典禮 / 哭得唏哩嘩啦QQ" class="e_photo">
+                        <span class="info">畢業典禮 / 哭得唏哩嘩啦QQ</span>
+                    </div>
+                    <div>
+                        <img src="assets/images/高中5.jpg" alt="我的三年共患難的靈魂趴呢 ❣" class="e_photo">
+                        <span class="info">我的三年共患難的靈魂趴呢 ❣</span>
+                    </div>
+                </div>
+                <div class="cc">
+                    <p class="ec1">要不是高中遇到了這麼優質的朋朋們，我高中三年應該會沒什麼回憶可言，還好對的人聚在一起去哪玩都好玩，本來就很活潑過動的我，總是天馬行空想了很多景點、美食，每一次都迫不急待想要趕快出去玩！就算只是班上的小活動，都會有我的身影出現(我就特別愛玩)。當然也會有遇到困難的時候，但大家都會互相幫助，多大的問題都會被我們給打倒的！很開心自己樂於所有事情！</p>
+                </div>
+            </div>
+
+            <div class="e2">
+                <p class="ec">系女排大家庭</p>
+                <div class="slider_container">
+                    <div>
+                        <img src="assets/images/女排1.jpg" alt="2021新生盃" class="e_photo">
+                        <span class="info">2021新生盃</span>
+                    </div>
+                    <div>
+                        <img src="assets/images/女排2.jpg" alt="2020新生盃" class="e_photo">
+                        <span class="info">2020新生盃</span>
+                    </div>
+                    <div>
+                        <img src="assets/images/女排3.jpg" alt="2021南資盃" class="e_photo">
+                        <span class="info">2021南資盃</span>
+                    </div>
+                    <div>
+                        <img src="assets/images/女排4.jpg" alt="一群小可愛 ♥" class="e_photo">
+                        <span class="info">一群小可愛 ♥</span>
+                    </div>
+                    <div>
+                        <img src="assets/images/女排5.jpg" alt="我的凱瑞隊長同伴 ❣" class="e_photo">
+                        <span class="info">我的凱瑞隊長同伴 ❣</span>
+                    </div>
+                </div>
+                <div class="cc">
+                    <p class="ec1">上大學之後才認真的接觸排球這項運動，或許當初對於排球的熱愛不是那麼強烈，但隨著時間的流逝，不斷不斷的練習，中途曾有想放棄的念頭，但身邊的這群小夥伴們總是給我鼓勵，還好自己沒有選擇放棄！現任身為系女排副隊長，最希望可以把球隊帶好，拿下獎盃 ♥</p>
+                </div>
+            </div>
+
+            <div class="e3">
+                <p class="ec">資管之夜</p>
+                <div class="slider_container">
+                    <div>
+                        <img src="assets/images/資夜1.jpg" alt="資夜的彩排總是又餓又累Q" class="e_photo">
+                        <span class="info">資夜的彩排總是又餓又累Q</span>
+                    </div>
+                    <div>
+                        <img src="assets/images/資夜3.jpg" alt="第一次的資管之夜 / 我要你愛 ❣" class="e_photo">
+                        <span class="info">第一次的資管之夜 / 我要你愛 ❣</span>
+                    </div>
+                    <div>
+                        <img src="assets/images/資夜4.jpg" alt="第一次的資管之夜 / 我要你愛 ❣" class="e_photo">
+                        <span class="info">第一次的資管之夜 / 我要你愛 ❣</span>
+                    </div>
+                    <div>
+                        <img src="assets/images/資夜2.jpg" alt="第二次的資管之夜 / 系學示範組" class="e_photo">
+                        <span class="info">第二次的資管之夜 / 我站在希臘打蛇頭在暈我擁有超能力用俗投加飯菜Q</span>
+                    </div>
+                    <div>
+                        <img src="assets/images/資夜5.jpg" alt="我的蛇美眉們 / 女舞辣姊姊 ❣" class="e_photo">
+                        <span class="info">我的蛇美眉們 / 女舞辣姊姊 ❣</span>
+                    </div>
+                </div>
+                <div class="cc">
+                    <p class="ec1">上大學才知道有很多活動真的都超好玩，第一次知道要演戲的時候還覺得超頭痛，想說很麻煩還要在大家面前表演Q 和大家一起努力準備的過程雖然很辛苦但真的回憶滿滿！第一次就驚豔全場，差一點點就可以拿下第一名！第二年加入系學活動股之後，轉戰系學示範組演戲，其實最讓我害怕的事「跳舞」！但女舞的姊妹們都很有耐心的教我，一起在大半夜排戲、練舞、吃宵，又完成了一個里程碑！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----生活碎片---->
+    <div class="part6">
+        <div id="life">
+            <p class="lt">生活碎片 ❣</p>
+            <div class="slider_container">
+                <div>
+                    <img src="assets/images/生活1.jpg" alt="2020 聖誕交換禮物 ♥" class="l_photo">
+                    <span class="info">2020 聖誕交換禮物 ♥</span>
+                </div>
+                <div>
+                    <img src="assets/images/生活2.jpg" alt="2020 耶誕舞會 ♥" class="l_photo">
+                    <span class="info">2020 耶誕舞會 ♥</span>
+                </div>
+                <div>
+                    <img src="assets/images/生活3.jpg" alt="我最尬意的家人 ♥" class="l_photo">
+                    <span class="info">我最尬意的家人 ♥</span>
+                </div>
+                <div>
+                    <img src="assets/images/生活4.jpg" alt="可愛的姊妹花 ✿" class="l_photo">
+                    <span class="info">可愛的姊妹花 ✿</span>
+                </div>
+                <div>
+                    <img src="assets/images/生活5.jpg" alt="我的室友跟我一起耍笨 ❣" class="l_photo">
+                    <span class="info">我的室友跟我一起耍笨 ❣</span>
+                </div>
+            </div>
+            <div class="slider_container">
+                <div>
+                    <img src="assets/images/生活6.jpg" alt="S.B.J.Y 最愛組合 ♥" class="l_photo">
+                    <span class="info">S.B.J.Y 最愛組合 ♥</span>
+                </div>
+                <div>
+                    <img src="assets/images/生活7.jpg" alt="可愛的姊妹花 ✿" class="l_photo">
+                    <span class="info">可愛的姊妹花 ✿</span>
+                </div>
+                <div>
+                    <img src="assets/images/生活8.jpg" alt="假裝網美一下 ♥" class="l_photo">
+                    <span class="info">假裝網美一下 ♥</span>
+                </div>
+                <div>
+                    <img src="assets/images/生活9.jpg" alt="當個妖豔的蛇妖 ✿" class="l_photo">
+                    <span class="info">當個妖豔的蛇妖 ✿</span>
+                </div>
+                <div>
+                    <img src="assets/images/生活10.jpg" alt="三隻魚組合 ❣❣❣" class="l_photo">
+                    <span class="info">三隻魚組合 ❣❣❣</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----側按鈕---->
+    <aside>
+        <a href="index.html#study">
+            <p class="hp1">學習歷程</p>
+        </a>
+        <a href="index.html#st">
+            <p class="hp2">技能</p>
+        </a>
+        <a href="index.html#projects">
+            <p class="hp3">專題專案</p>
+        </a>
+        <a href="index.html#experiance">
+            <p class="hp4">社團活動</p>
+        </a>
+        <a href="index.html#life">
+            <p class="hp5">生活碎片</p>
+        </a>
+    </aside>
+</main>
+    <footer>
+        <p class="ft">此網站內容版權歸 唐伃萱 所有♥</p>
+    </footer>
+</body>
+</html>
