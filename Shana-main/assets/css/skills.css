@@ -1,0 +1,313 @@
+/*----程式技能----*/
+.part2{
+    background-color: #CCDBE2;
+    background-image: url(../images/個介背景2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* 調整背景圖片的大小以填滿區塊 */
+    background-position: center; /* 確保圖片在區塊中置中 */
+    border-radius: 20px;
+    width: 31.5%;
+    height: auto;
+    left: 460px;
+    top: 20px;
+    bottom: 20px;
+    margin-right: 22px;
+    margin-bottom: 50px;
+    position: relative;
+    padding: 15px;
+    float: left;
+}
+
+.part2{
+    display: block;
+}
+
+.ST{
+    font-size: 30px;
+    font-weight: bold;
+    color: #392759;
+    width: 400px;
+    position: relative;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.sc1{
+    color: teal;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 1%;
+}
+
+.container {
+    width: 70%;
+    padding: 10px 30px 20px 15px;
+    background-color: #7fb174;
+    border-radius: 40px;
+
+}
+
+.container * {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+.bar {
+    text-align: right;
+    position: relative;
+    border: 5px solid #FF9770;
+    border-radius: 25px;
+    margin-bottom: 2%;
+    font-size: 15px;
+    color: #1E555C;
+}
+
+.bar div {
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 15px;
+    background-color: #FF9770;
+    color: #1E555C;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/*----進度條動畫----*/
+#html-bar{
+    animation: html-fill 8s forwards;
+}
+
+@keyframes html-fill {
+    100% {
+        width: 90%;
+    }
+}
+
+#css-bar{
+    animation: css-fill 8s forwards;
+}
+
+@keyframes css-fill {
+    100% {
+        width: 90%;
+    }
+}
+
+#javascript-bar {
+    animation: js-fill 8s forwards;
+}
+
+@keyframes js-fill {
+    100% {
+        width: 60%;
+    }
+}
+
+#C-bar{
+    animation: C-fill 8s forwards;
+}
+
+@keyframes C-fill {
+    100% {
+        width: 30%;
+    }
+}
+
+#SQL-bar{
+    animation: SQL-fill 8s forwards;
+}
+
+@keyframes SQL-fill {
+    100% {
+        width: 75%;
+    }
+}
+
+#Android-bar{
+    animation: Android-fill 8s forwards;
+}
+
+@keyframes Android-fill {
+    100% {
+        width: 60%;
+    }
+}
+
+#R-bar{
+    animation: R-fill 8s forwards;
+}
+
+@keyframes R-fill {
+    100% {
+        width: 50%;
+    }
+}
+
+#PyThon-bar{
+    animation: PyThon-fill 8s forwards;
+}
+
+@keyframes PyThon-fill {
+    100% {
+        width: 60%;
+    }
+}
+
+#JAVA-bar{
+    animation: JAVA-fill 8s forwards;
+}
+
+@keyframes JAVA-fill {
+    100% {
+        width: 70%;
+    }
+}
+
+/*----專業技能----*/
+.part3{
+    background-color: #CCDBE2;
+    background-image: url(../images/個介背景3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* 調整背景圖片的大小以填滿區塊 */
+    background-position: center; /* 確保圖片在區塊中置中 */
+    border-radius: 10px;
+    width: 31%;
+    height: auto;
+    left: 460px;
+    top: 20px;
+    bottom: 20px;
+    margin-left: 22px;
+    margin-bottom: 50px;
+    position: relative;
+    padding: 15px;
+    float: left;
+}
+
+.part3{
+    display: block;
+}
+
+.highlight {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 1%;
+}
+
+.container2 {
+    width: 70%;
+    padding: 10px 30px 20px;
+    background-color: #0e4d42;
+    border-radius: 40px;
+}
+
+.container2 * {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.details2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.bar2 {
+    text-align: right;
+    position: relative;
+    border: 5px solid #FF9770;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #1E555C;
+}
+
+.bar2 div {
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 15px;
+    background-color: #FF9770;
+    color: #1E555C;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/*----進度條動畫----*/
+#W-bar2{
+    animation: W-fill 8s forwards;
+}
+
+@keyframes W-fill {
+    100% {
+        width: 90%;
+    }
+}
+
+#E-bar2 {
+    animation: E-fill 8s forwards;
+}
+
+@keyframes E-fill {
+    100% {
+        width: 100%;
+    }
+}
+
+#L-bar2 {
+    animation: L-fill 8s forwards;
+}
+
+@keyframes L-fill {
+    100% {
+        width: 95%;
+    }
+}
+
+#S-bar2 {
+    animation: S-fill 8s forwards;
+}
+
+@keyframes S-fill {
+    100% {
+        width: 85%;
+    }
+}
+
+#P-bar2 {
+    animation: P-fill 8s forwards;
+}
+
+@keyframes P-fill {
+    100% {
+        width: 90%;
+    }
+}
+
+#I-bar2 {
+    animation: I-fill 8s forwards;
+}
+
+@keyframes I-fill {
+    100% {
+        width: 75%;
+    }
+}
+
+#H-bar2 {
+    animation: H-fill 8s forwards;
+}
+
+@keyframes H-fill {
+    100% {
+        width: 80%;
+    }
+}

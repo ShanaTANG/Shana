@@ -1,0 +1,426 @@
+/*----專題、專案----*/
+.part4{
+    background-image: url(../images/區塊背景8.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px;
+    width: 65%;
+    height: auto;
+    left: 460px;
+    top: 20px;
+    margin-bottom: 50px;
+}
+
+#projects{
+    padding: 10px;
+    margin: 10px;
+}
+
+#pt{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #473144;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+ /*----時間軸內容----*/
+.tt1{
+    font-size: 20px;
+    color: #111D4A;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.mt1{
+    font-size: 18px;
+    color: #AF1B3F;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.ct1{
+    font-size: 15px;
+    color: #685044;
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+/*----按鈕連結----*/
+.button1{
+    width: auto;
+    height: 40px;
+    margin: 10px;
+    font-weight: bolder;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 10px;
+    line-height: 40px;
+    color: #54577C;
+    background-color: transparent;
+    border: 4px solid #F5F2B8;
+    border-radius: 10px;
+    transition: all .3s linear;
+    position: absolute;
+    z-index: 4;
+    bottom: 2%;
+    left: 5%;
+}
+.button1:hover{
+    background-color: #BEE3DB;
+    color: #fff;
+    z-index: 5;
+}
+
+.button2{
+    width: auto;
+    height: 40px;
+    margin: 10px;
+    font-weight: bolder;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 10px;
+    line-height: 40px;
+    color: #54577C;
+    background-color: transparent;
+    border: 4px solid #F5F2B8;
+    border-radius: 10px;
+    transition: all .3s linear;
+    position: absolute;
+    z-index: 3;
+    bottom: 5%;
+    right: 0;
+}
+.button2:hover{
+    background-color: #BEE3DB;
+    color: #fff;
+    z-index: 5;
+}
+
+.right1{
+    left: 0%;
+}
+
+.left1{
+    right: 50%;
+}
+
+.a1{
+    display: flex;
+}
+
+.imgbox{
+    padding: 20px 30px;
+    position: relative;
+    width: 50%;
+}
+
+.photogroup1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.photo1{
+    width: 300px;
+    height: 200px;
+    top: 5px;
+    left: 35px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    transition: transform 0.8s;
+}
+
+.photo1:hover{
+    transform: scale(1.2,1.2);
+    z-index: 5;
+}
+
+.photo2{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    left: 100px;
+    transition: transform 0.8s;
+}
+
+.photo2:hover{
+    transform: scale(1.2,1.2);
+    z-index: 5;
+}
+
+.photo3{
+    width: 310px;
+    height: 220px;
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 3;
+    top: 45px;
+    left: 20px;
+    transition: transform 0.8s;
+}
+
+.photo3:hover{
+    transform: scale(1.2,1.2);
+}
+
+.photo4{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    left: 150px;
+    transition: transform 0.8s;
+}
+
+.photo4:hover{
+    transform: scale(1.2,1.2);
+    z-index: 5;
+}
+
+.photo5{
+    width: 380px;
+    height: 220px;
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 60px;
+    transition: transform 0.8s;
+}
+
+.photo5:hover{
+    transform: scale(1.2,1.2);
+    z-index: 5;
+}
+
+.photo6{
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 30px;
+    transition: transform 0.8s;
+}
+
+.photo6:hover{
+    transform: scale(1.2,1.2);
+    z-index: 5;
+}
+
+.photo7{
+    width: 300px;
+    height: 200px;
+    top: 20px;
+    left: 10px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    transition: transform 0.8s;
+}
+
+.photo7:hover{
+    transform: scale(1.2,1.2);
+    z-index: 5;
+}
+
+.photo8{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+    transition: transform 0.8s;
+}
+
+.photo8:hover{
+    transform: scale(1.2,1.2);
+    z-index: 5;
+}
+
+.photo9{
+    width: 320px;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 10px;
+    transition: transform 0.8s;
+}
+
+.photo9:hover{
+    transform: scale(1.2,1.2);
+    z-index: 5;
+}
+
+.photo10{
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 250px;
+    transition: transform 0.8s;
+}
+
+.photo10:hover{
+    transform: scale(1.2,1.2);
+    z-index: 5;
+}
+
+.photo11{
+    width: 300px;
+    height: 200px;
+    top: 20px;
+    left: 120px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    transition: transform 0.8s;
+}
+
+.photo11:hover{
+    transform: scale(1.2,1.2);
+    z-index: 5;
+}
+
+/*----時間軸----*/
+* {
+  box-sizing: border-box;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: auto;
+  background-color: burlywood;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: 0px;
+}
+
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: 0%;
+}
+
+.right {
+  left: 50%;
+}
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid black;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent black;
+}
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid black;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent black transparent transparent;
+}
+
+.right::after {
+  left: -16px;
+}
+
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  height: auto;
+  width: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .timeline::after {
+  left: 31px;
+  height: auto;
+  }
+
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  .container::before {
+  left: 60px;
+  border: medium solid black;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent black transparent transparent;
+  }
+
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  .right {
+  left: 0%;
+  }
+}
