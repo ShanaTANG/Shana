@@ -3,6 +3,8 @@
     background-color: #CCDBE2;
     background-image: url(../images/個介背景2.jpg);
     background-repeat: no-repeat;
+    background-size: cover; /* 調整背景圖片的大小以填滿區塊 */
+    background-position: center; /* 確保圖片在區塊中置中 */
     border-radius: 20px;
     width: 31.5%;
     height: auto;
@@ -34,6 +36,7 @@
     color: teal;
     font-weight: bolder;
     font-size: 25px;
+    margin-bottom: 1%;
 }
 
 .container {
@@ -53,7 +56,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
+    margin-bottom: 1%;
 }
 
 .bar {
@@ -61,8 +64,8 @@
     position: relative;
     border: 5px solid #FF9770;
     border-radius: 25px;
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-bottom: 2%;
+    font-size: 15px;
     color: #1E555C;
 }
 
@@ -118,12 +121,63 @@
     }
 }
 
+#SQL-bar{
+    animation: SQL-fill 8s forwards;
+}
+
+@keyframes SQL-fill {
+    100% {
+        width: 75%;
+    }
+}
+
+#Android-bar{
+    animation: Android-fill 8s forwards;
+}
+
+@keyframes Android-fill {
+    100% {
+        width: 60%;
+    }
+}
+
+#R-bar{
+    animation: R-fill 8s forwards;
+}
+
+@keyframes R-fill {
+    100% {
+        width: 50%;
+    }
+}
+
+#PyThon-bar{
+    animation: PyThon-fill 8s forwards;
+}
+
+@keyframes PyThon-fill {
+    100% {
+        width: 60%;
+    }
+}
+
+#JAVA-bar{
+    animation: JAVA-fill 8s forwards;
+}
+
+@keyframes JAVA-fill {
+    100% {
+        width: 70%;
+    }
+}
+
 /*----專業技能----*/
 .part3{
     background-color: #CCDBE2;
     background-image: url(../images/個介背景3.jpg);
-    background-size: 100%;
     background-repeat: no-repeat;
+    background-size: cover; /* 調整背景圖片的大小以填滿區塊 */
+    background-position: center; /* 確保圖片在區塊中置中 */
     border-radius: 10px;
     width: 31%;
     height: auto;
@@ -139,6 +193,12 @@
 
 .part3{
     display: block;
+}
+
+.highlight {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 1%;
 }
 
 .container2 {
@@ -202,6 +262,16 @@
     }
 }
 
+#L-bar2 {
+    animation: L-fill 8s forwards;
+}
+
+@keyframes L-fill {
+    100% {
+        width: 95%;
+    }
+}
+
 #S-bar2 {
     animation: S-fill 8s forwards;
 }
@@ -219,5 +289,25 @@
 @keyframes P-fill {
     100% {
         width: 90%;
+    }
+}
+
+#I-bar2 {
+    animation: I-fill 8s forwards;
+}
+
+@keyframes I-fill {
+    100% {
+        width: 75%;
+    }
+}
+
+#H-bar2 {
+    animation: H-fill 8s forwards;
+}
+
+@keyframes H-fill {
+    100% {
+        width: 80%;
     }
 }

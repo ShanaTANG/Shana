@@ -80,8 +80,14 @@
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%; /* 確保 div 填滿容器 */
+    height: 100%;
     opacity: 0;
     filter: alpha(opacity=0);
+    display: flex; /* 使用 flexbox 幫助置中 */
+    align-items: center; /* 垂直置中 */
+    justify-content: center; /* 水平置中 */
+    overflow: hidden; /* 防止圖片超出容器 */
 }
 
 .slider_container div {
@@ -90,8 +96,11 @@
 }
 
 .e_photo{
-    width: 550px;
-    height: 380px;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-position: center; /* 圖片置中顯示 */
 }
     
 @-webkit-keyframes round {

@@ -1,6 +1,7 @@
 /*----專題、專案----*/
 .part4{
     background-image: url(../images/區塊背景8.jpg);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     position: relative;
     border-radius: 10px;
@@ -8,7 +9,6 @@
     height: auto;
     left: 460px;
     top: 20px;
-    bottom: 20px;
     margin-bottom: 50px;
 }
 
@@ -50,7 +50,7 @@
 
 /*----按鈕連結----*/
 .button1{
-    width: 250px;
+    width: auto;
     height: 40px;
     margin: 10px;
     font-weight: bolder;
@@ -76,7 +76,7 @@
 }
 
 .button2{
-    width: 250px;
+    width: auto;
     height: 40px;
     margin: 10px;
     font-weight: bolder;
@@ -197,8 +197,8 @@
     border-radius: 10px;
     position: absolute;
     z-index: 1;
-    top: 10px;
-    left: 80px;
+    top: 20px;
+    left: 60px;
     transition: transform 0.8s;
 }
 
@@ -228,7 +228,7 @@
     width: 300px;
     height: 200px;
     top: 20px;
-    left: 115px;
+    left: 10px;
     border-radius: 10px;
     position: absolute;
     z-index: 1;
@@ -269,6 +269,39 @@
 }
 
 .photo9:hover{
+    transform: scale(1.2,1.2);
+    z-index: 5;
+}
+
+.photo10{
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 250px;
+    transition: transform 0.8s;
+}
+
+.photo10:hover{
+    transform: scale(1.2,1.2);
+    z-index: 5;
+}
+
+.photo11{
+    width: 300px;
+    height: 200px;
+    top: 20px;
+    left: 120px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    transition: transform 0.8s;
+}
+
+.photo11:hover{
     transform: scale(1.2,1.2);
     z-index: 5;
 }
